@@ -8,6 +8,7 @@ XSS-BruteLogic.txt.png resmini açtığımız zaman bizim işimize yarayacak bir
 
 ![Steg](images/Steg.jpg)
 
-Denemelerimizden sonra buraya bruteforce karar verdik fakat elimizdeki çoğu liste işe yaramadı. XSS-BruteLogic kelimseini Google'da aradığımız zaman ilk çıkanlardan https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/Intruders/BRUTELOGIC-XSS-STRINGS.txt böyle bir Github linki çıkıyordu. Sonrasında bu txt dosyası içerisindeki payloadları steg.py dosyasına key olarak verecek bir script yazdık. Fakat python scriptinde AES decrypt modu bulunmuyordu bunun için kendimiz var olan tüm modları denedik. Bu scripti çalıştırdıktan sonra ECB moduyla bu keyi elde ettik `'-alert(1)-'` ve keyimizi yazdıktan sonra fotoğrafı başarıyla decrypt etmiş olduk.
+Denemelerimizden sonra buraya bruteforce karar verdik fakat elimizdeki çoğu liste işe yaramadı. XSS-BruteLogic kelimseini Google'da aradığımız zaman ilk çıkanlardan https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/Intruders/BRUTELOGIC-XSS-STRINGS.txt böyle bir Github linki çıkıyordu. Sonrasında bu txt dosyası içerisindeki payloadları steg.py dosyasına key olarak verecek bir script yazdık. Fakat python scriptinde AES decrypt modu bulunmuyordu bunun için kendimiz var olan tüm modları denedik. Bu scripti çalıştırdıktan sonra ECB moduyla bu keyi elde ettik `'-alert(1)-'` ve keyimizi yazdıktan sonra fotoğrafı başarıyla decrypt etmiş olduk. 
+[Solution.py](https://github.com/Aporlorxl23/CTF/blob/main/HI2021/XSS-BruteLogic/XSS-BruteLogic.py)
 
 ![Flag](images/Flag.JPG)
