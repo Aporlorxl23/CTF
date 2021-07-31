@@ -2,11 +2,12 @@
 #
 
 Soruda bize bozuk QR kod verilmişti 
-!(broken_qr)[Arcfour.png]
+
+![broken_qr](Arcfour.png)
 
 Bize verilen QR kodu https://www.gifgit.com/image/swirl-image sitesinden düzeltiyoruz 
 
-!(qr)[QR.png]
+![qr](QR.png)
 
 Düzeltilmiş QR kodu okuduğumuz zaman bize 
 `UGpiMlBGR3dPSDZRU2VqNkhaaGVocVRWMUFYcmU5RnJYcWFhdHRzbldaUTZoMCthS0MvcXpxcz0KUGFzczpDQkNIYWNrSXN0YW5idWw=` böyle bir Base64 dönüyor.
@@ -17,4 +18,4 @@ Base64'ü okuduktan sonra
 
 böyle bir çıktı geliyor bunuda RC4-40 ile decode edince karşımıza flag çıkıyor.
 
-!(RC4-40)[RC4-40-decode.jpg]
+![RC4-40](RC4-40-decode.jpg)
