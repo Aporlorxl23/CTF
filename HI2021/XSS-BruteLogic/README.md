@@ -4,7 +4,7 @@ XSS-BruteLogic sorusunda bize XSS-BruteLogic.zip adlı bir zip dosyası veriyord
 
 ![File](images/File.JPG)
 
-XSS-BruteLogic.txt.png resmini açtığımız zaman bizim işimize yarayacak bir görüntü ortaya çıkmadı. .git/ dizinine geçtiğimiz zaman git diff ve git log komutlarından bir bilgi elde edemedik. Config dosyasını okudğumuz zaman https://github.com/Effective1212/Steganography.git bir Github repositorysi verdi. Bu github reposunu clone ettik ve içerisinde opencv ile yazılmış bir steg.py adında bir python scripti gördük. Bu scripti python2 ile çalıştırdık sebebi syntaxi python2 ye göre yazılmasıydı. Scripti çalıştırıp decrypt etmeye çalışırken bizden bir key istedi.
+XSS-BruteLogic.txt.png resmini açtığımız zaman bizim işimize yarayacak bir görüntü ortaya çıkmadı. .git/ dizinine geçtiğimiz zaman git diff ve git log komutlarından bir bilgi elde edemedik. Config dosyasını okudğumuz zaman https://github.com/Effective1212/Steganography.git bir Github repositorysi verdi. Bu github reposunu clone ettik ve içerisinde opencv ile yazılmış bir steg.py adında bir python scripti gördük. Bu scripti python2 ile çalıştırdık sebebi syntax'ı python2 ye göre yazılmasıydı. Scripti çalıştırıp decrypt etmeye çalışırken bizden bir key istedi.
 
 ![Steg](images/Steg.jpg)
 
