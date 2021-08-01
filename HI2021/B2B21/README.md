@@ -59,10 +59,13 @@ Archive:  221.zip
 [221.zip] flag.exe password: CTF-C0nt1Nu3
   inflating: flag.exe
 ```
-Son olarak strings komuduyla flag.exe ye bakınca bize bir binary verdi ve onu kırdığımızda flage ulaştık.
+Strings komuduyla flag.exe ye bakınca bize bir binary verdi.
 
 ```
 $ strings flag.exe 
 
 01111011 01001000 01001001 00110010 00110000 00110010 00110001 00101101 01000111 00110000 00110000 01100100 01001010 00110000 01100010 01000110 00110001 01101110 01000100 01101101 00110011 01010111 00110011 00110100 01110100 00110100 00110010 00111000 01001000 01110110 00110110 01011001 01010011 01011010 00110001 01010000 01110011 00110011 01111101
 ```
+Son olarak binary'i text'e çevirdiğimizde flagi elde ediyoruz
+
+![File](images/binary.png)
